@@ -1,0 +1,12 @@
+server:
+  port: 3100
+
+spring:
+  application:
+    name: spring-cloud-search
+  data:
+    elasticsearch:
+      cluster-name: es1
+      cluster-nodes: 192.168.0.131:9300
+      repositories:
+        enabled: true
